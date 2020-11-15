@@ -1,4 +1,6 @@
-
+.root{
+	font-size: 40px;
+}
 
 * {
 	box-sizing: border-box;
@@ -19,6 +21,7 @@ body{
 }
 
 .container >div{
+	position: relative;
 	cursor: pointer;
 	height: 200px;
     background-size: cover;
@@ -65,18 +68,40 @@ body{
 
 @media (max-width: 480px) {
 
+	.container{
+		display: grid;
+	    grid-template-columns: repeat(1fr);
+	    font-size: 1rem;
+	    grid-gap: 3px;
+
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+
 	.container > div {
-           display: flex;
-           flex-direction: column;
+           
+           max-height: 20vh;
 
 	}
+
+	/*.container > div:hover {
+    opacity: 0.7;
+    transform: scale(0.98);
+    }*/
+
 	.bigbox{
 		width: 100vw;
 	}
 	.box{
-		width: 50vw;
+		width: 100vw;
 	}
-}
+	.A2{
+	    order:1;
+	}
+	.A1{
+		order: -1;
+	}
+}	
 
 @media (min-width: 481px) (max-width: 768px) {
 
