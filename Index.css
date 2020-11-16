@@ -83,7 +83,10 @@ body{
                         max-height: 20vh;
 /*                         position: relative; */
 /* 			cursor: pointer; */
-			
+		
+		
+			background: url('A1.jpg');
+	                color: #D9E9F9	
 		        background-size: cover;
 			background-attachment: fixed;
 		        background-position: center;
