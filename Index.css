@@ -24,7 +24,7 @@ body{
 	position: relative;
 	cursor: pointer;
 	height: 200px;
-    background-size: cover;
+        background-size: cover;
 	background-attachment: fixed;
 
 	display: flex;
@@ -69,7 +69,7 @@ body{
 @media (max-width: 480px) {
 
 	.container{
-		display: grid;
+	    display: grid;
 	    grid-template-columns: repeat(1fr);
 	    font-size: 1rem;
 	    grid-gap: 3px;
@@ -80,14 +80,14 @@ body{
 
 	.container > div {
            
-            max-height: 20vh;
-            position: relative;
+                        max-height: 20vh;
+                        position: relative;
 			cursor: pointer;
 			width: 100vw;
 			
-		    background: url('A1.jpg');
-	        color: #D9E9F9
-		    background-size: cover;
+		        background: url('A1.jpg');
+	                color: #D9E9F9
+		        background-size: cover;
 			background-attachment: fixed;
 
 			display: flex;
