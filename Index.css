@@ -110,16 +110,16 @@ body{
 /* 	.box{
 		width: 100vw;
 	} */ */
-	.A2{
+	.A2 .A1{
 /* 	    order:1; */
 		background: url('A1.jpg');
 	        color: #D9E9F9
 	}
-	.A1{
+/* 	.A1{
 /* 		order: -1; */
-		background: url('A1.jpg');
-	        color: #D9E9F9
-	}
+/* 		background: url('A1.jpg');
+	        color: #D9E9F9 */
+	} */
 }	
 
 @media (min-width: 481px) (max-width: 768px) {
