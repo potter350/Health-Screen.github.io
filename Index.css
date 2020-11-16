@@ -84,7 +84,7 @@ body{
 /*                         position: relative; */
 			cursor: pointer;
 			
-		        /*background-size: cover; */
+		        background-size: cover;
 			background-attachment: fixed;
 
 			display: flex;
