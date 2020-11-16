@@ -74,8 +74,8 @@ body{
 	    font-size: 1rem;
 	    grid-gap: 3px;
 
-/* 	    display: flex;
-	    flex-wrap: wrap; */
+	    display: flex;
+	    flex-wrap: wrap;
 	}
 
 	.container > div {
