@@ -84,7 +84,7 @@ body{
                         position: relative;
 			cursor: pointer;
 			
-		        background-size: cover;
+		        /*background-size: cover; */
 			background-attachment: fixed;
 
 			display: flex;
@@ -110,9 +110,13 @@ body{
 	}
 	.A2{
 	    order:1;
+		background: url('A1.jpg');
+	        color: #D9E9F9
 	}
 	.A1{
 		order: -1;
+		background: url('A1.jpg');
+	        color: #D9E9F9
 	}
 }	
 
