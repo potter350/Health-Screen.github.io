@@ -80,7 +80,20 @@ body{
 
 	.container > div {
            
-           max-height: 20vh;
+                        max-height: 20vh;
+                        position: relative;
+			cursor: pointer;
+			
+		        background-size: cover;
+			background-attachment: fixed;
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			
+
+			transition: all 1s ease-out;		
 
 	}
 
