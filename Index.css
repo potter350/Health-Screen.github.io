@@ -81,7 +81,7 @@ body{
 	.container > div {
            
                         max-height: 20vh;
-                        position: absolute;
+/*                         position: relative; */
 			cursor: pointer;
 			
 		        background-size: cover;
