@@ -91,6 +91,7 @@ body{
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
+		        width: 100vw;
 			
 
 			transition: all 1s ease-out;		
@@ -102,12 +103,12 @@ body{
     transform: scale(0.98);
     }*/
 
-	.bigbox .box{
+/* 	.bigbox .box{
 		width: 100vw;
 	}
 /* 	.box{
 		width: 100vw;
-	} */
+	} */ */
 	.A2{
 /* 	    order:1; */
 		background: url('A1.jpg');
