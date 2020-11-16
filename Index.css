@@ -102,12 +102,12 @@ body{
     transform: scale(0.98);
     }*/
 
-	.bigbox{
+	.bigbox .box{
 		width: 100vw;
 	}
-	.box{
+/* 	.box{
 		width: 100vw;
-	}
+	} */
 	.A2{
 /* 	    order:1; */
 		background: url('A1.jpg');
