@@ -109,12 +109,12 @@ body{
 		width: 100vw;
 	}
 	.A2{
-	    order:1;
+/* 	    order:1; */
 		background: url('A1.jpg');
 	        color: #D9E9F9
 	}
 	.A1{
-		order: -1;
+/* 		order: -1; */
 		background: url('A1.jpg');
 	        color: #D9E9F9
 	}
